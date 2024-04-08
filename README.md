@@ -8,3 +8,6 @@ To automate Docker builds and pushing to Docker Hub, you can use a CI/CD tool li
 4. In the GitHub Actions workflow, check out the code from your repository.
 5. Use the docker/build-push-action action to build and push the Docker image to Docker Hub. You can specify the Dockerfile location, Docker Hub repository, and any build arguments that you need.
 6. Optionally, you can add additional steps to your GitHub Actions workflow to run tests, lint your code, or perform other tasks before building the Docker image.
+
+
+![Alt text](image.png)
